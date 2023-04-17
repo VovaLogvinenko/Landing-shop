@@ -1,12 +1,7 @@
 .carousel {
 
     // Images size and position
-    &__image-item {
-        width: 140px;
-        height: 300px;
-        
-        margin: 0 40px 0 0;
-    }
+    &__image-item {height: 300px;}
 
     &__desert {@include image-carousel(desert)}
 

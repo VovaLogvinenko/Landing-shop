@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Landing-shop/static/css/main.4024bf38.css",
+    "main.js": "/Landing-shop/static/js/main.fe02c187.js",
+    "static/media/girl.png": "/Landing-shop/static/media/girl.d4be9f8ad1de3d98d0ca.png",
+    "static/media/girlS.png": "/Landing-shop/static/media/girlS.1421fcbdee6a3eb3f3ca.png",
+    "static/media/blouse.png": "/Landing-shop/static/media/blouse.5fe8b039892f3c233d73.png",
+    "static/media/desert.png": "/Landing-shop/static/media/desert.89feb045a6e5c0997631.png",
+    "static/media/shoes.png": "/Landing-shop/static/media/shoes.6ba22c77d74693b435ce.png",
+    "static/media/Jomhuria-Regular.ttf": "/Landing-shop/static/media/Jomhuria-Regular.ce9eb9458abe84317d7e.ttf",
+    "static/media/Roboto-Regular.ttf": "/Landing-shop/static/media/Roboto-Regular.160d7a6ac26376e5e977.ttf",
+    "static/media/mountains.png": "/Landing-shop/static/media/mountains.470c8b7fae59a6ffc3ba.png",
+    "static/media/Oswald-Bold.ttf": "/Landing-shop/static/media/Oswald-Bold.c1f72746d9690ee899a5.ttf",
+    "static/media/Oswald-Medium.ttf": "/Landing-shop/static/media/Oswald-Medium.2e80586d515f046b47f0.ttf",
+    "static/media/GaraginRockLite.ttf": "/Landing-shop/static/media/GaraginRockLite.e93411b6e067bd35d7b8.ttf",
+    "static/media/android.svg": "/Landing-shop/static/media/android.bdbfb7daa8c4efdfefba9e5590bb2c3e.svg",
+    "static/media/apple.svg": "/Landing-shop/static/media/apple.58870bcf3950f2fbae246ce19832e844.svg",
+    "static/media/slick.svg": "/Landing-shop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Landing-shop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Landing-shop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Landing-shop/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/line.svg": "/Landing-shop/static/media/line.8fc8d004b224a9feb64531237afa912d.svg",
+    "static/media/arrow_right.svg": "/Landing-shop/static/media/arrow_right.0998e6b0ab2905670d14a131b2f7831d.svg",
+    "index.html": "/Landing-shop/index.html",
+    "static/media/arrow_left.svg": "/Landing-shop/static/media/arrow_left.2e4a792ff38943f109c08e00baafb948.svg",
+    "main.4024bf38.css.map": "/Landing-shop/static/css/main.4024bf38.css.map",
+    "main.fe02c187.js.map": "/Landing-shop/static/js/main.fe02c187.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4024bf38.css",
+    "static/js/main.fe02c187.js"
+  ]
+}
