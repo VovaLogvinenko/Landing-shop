@@ -1,0 +1,15 @@
+body {
+    font-family: $main-font;
+
+    color: $main-color;
+    background-color: $phones-color;
+    
+    padding: 100px 0 225px;
+}
+
+.container {
+    max-width: 1200px;
+    
+    margin: 0 auto;
+    padding: 0 15px;
+}

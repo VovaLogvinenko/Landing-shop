@@ -1,0 +1,49 @@
+.about {
+    padding: 40px 0 100px;
+    margin-top: 135px;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+
+    border-radius: 6px;
+    
+    // About titles
+    &__title {
+        font-family: $titles-font;
+        font-weight: 500;
+        font-size: rem(60);
+        line-height: rem(70);
+        
+        text-align: center;
+
+        opacity: 0;
+
+        // Lazy animation
+        &.active {@include animation(slideLeft, .5s, 0)}
+    }
+
+    &__more-title {margin-top: $margin-about;}
+
+    // Carousel 
+    &__carousel {
+        margin-top: $margin-about;
+        opacity: 0;
+
+        // Lazy animation
+        &.active {@include animation(slideDown, .5s, 0)}
+    }
+
+    // About text(description)
+    &__description {
+        margin: 0 50px;
+
+        line-height: rem(27);
+        
+        opacity: 0;
+
+        // Lazy animation
+        &.active {@include animation(slideLeft, .5s, 0)}
+    }
+
+    &__first-text {margin-top: $margin-about;}
+}

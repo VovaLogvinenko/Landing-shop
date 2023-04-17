@@ -1,0 +1,142 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    // Logo
+    .logo {
+        font-family: $logo-font;
+        font-weight: 400;
+        font-size: rem(80);
+    
+        color: $logo-color;
+        
+        text-transform: uppercase;
+
+        @include animation(slideRight, .5s, .4s)
+    }
+
+    // Links
+    &__links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    // Nav
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        &__item {
+            margin-right: 80px;
+            font-size: rem(18);
+
+            // Animations for links
+            &-clothes {@include animation(slideDown, .5s, 1.6s);}
+            &-sneakers {@include animation(slideDown, .5s, 2s);}
+            &-bags {@include animation(slideDown, .5s, 2.4s);}
+            &-accessorize {@include animation(slideDown, .5s, 2.8s);}
+        }
+        
+        // Transitons for links
+        &__link {
+            position: relative;
+            transition: all .3s ease;
+
+            &::before {
+                content: '';
+                position: absolute;
+
+                width: 0;
+                height: 2px;
+
+                left: 0;
+                bottom: -5px;
+                
+                background-color: $logo-color;
+                transition: all .3s ease;
+            }
+
+            &:hover {
+                color: $logo-color;
+
+                &:hover::before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    // Sticker button
+    &__button {
+        position: relative;
+
+        font-family: $button-font;
+        font-size: rem(34);
+
+        color: $white-color;
+        text-transform: uppercase;
+        transform: rotate(30deg);
+
+        background-color: $red-color;
+
+        border-radius: 50%;
+
+        padding: 22px 20px;
+        z-index: 1;
+
+        opacity: 0;
+        animation: opacity .3s ease forwards;
+        animation-delay: 2.9s;
+
+        // Yellow sticker button
+        &::before {
+            content: '';
+            position: absolute;
+
+            width: 103%;
+            height: 102%;
+            
+            left: -1px;
+            bottom: -1px;
+
+            border-radius: 50%;
+            transform: rotate(180deg);
+
+            background-color: #f7e5c0;
+
+            transition: all .4s ease;
+
+            pointer-events: none;
+
+            @include animation(yellowSticker, 1.2s, 2.9s)
+        }
+
+        // 'Invisible' button block
+        &::after {
+            content: '';
+            position: absolute;
+            overflow: hidden;
+
+            width: 102%;
+            height: 102%;
+
+            left: -1px;
+            bottom: -1px;
+
+            background-color: $background-color;
+            transition: all .4s ease;
+            
+            pointer-events: none;
+            animation: hideBlockSticker .9s ease forwards;
+            animation-delay: 3.2s;
+        }
+
+        &:hover {
+            &::before {transform: translateY(-49px);}
+            &::after {transform: translateY(-26px);}
+        }
+    }
+}

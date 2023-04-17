@@ -1,0 +1,20 @@
+// Phone background
+%phone-ad {
+    max-width: max-content;
+
+    padding: 13px 16px;
+    
+    border-radius: 50%;
+    background-color: $phones-color;
+}
+
+// Image in carousel
+%image-carousel {
+    display: inline-block;
+    
+    width: inherit;
+    height: inherit;
+    
+    background-position: center;
+    background-size: cover;
+}

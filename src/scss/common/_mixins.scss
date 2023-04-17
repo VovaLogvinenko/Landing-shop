@@ -1,0 +1,12 @@
+// Animation
+@mixin animation($name, $duration, $delay) {
+    opacity: 0;
+    animation: $name $duration ease forwards;
+    animation-delay: $delay;
+}
+
+// Image in carousel
+@mixin image-carousel($name) {
+    @extend %image-carousel;
+    background-image: url('../../../../public/images/carousel/' + $name + '.png');
+}
